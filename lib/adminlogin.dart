@@ -50,7 +50,7 @@ class _AdminLoginState extends State<AdminLogin> {
                 height: 15.0,
               ), */
               Text(
-                'LOGIN',
+                'ADMIN LOGIN',
                 textAlign: TextAlign.center,
                 style: TextStyle(
                   color: Colors.white,

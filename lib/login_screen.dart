@@ -50,7 +50,7 @@ class _LoginScreenState extends State<LoginScreen> {
                 height: 15.0,
               ), */
               Text(
-                'LOGIN',
+                'EMPLOYEE LOGIN',
                 textAlign: TextAlign.center,
                 style: TextStyle(
                   color: Colors.white,
