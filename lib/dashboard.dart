@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:optelgoa/attendance.dart';
 import 'package:optelgoa/reusable.dart';
 import 'constants.dart';
 import 'package:optelgoa/constants.dart';
@@ -185,7 +186,9 @@ class _DashboardState extends State<Dashboard> {
                 ),
                 Expanded(
                   child: Reusable(
-                      onpress: () {},
+                      onpress: () {
+                        Navigator.pushNamed(context, Attendance.id);
+                      },
                       colour: activeCardcolor,
                       cardchild: Column(
                           mainAxisAlignment: MainAxisAlignment.center,
