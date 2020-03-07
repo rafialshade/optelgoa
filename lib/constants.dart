@@ -13,12 +13,16 @@ const kMessageTextFieldDecoration = InputDecoration(
   hintStyle: TextStyle(color: Colors.white54),
   border: InputBorder.none,
 );
-
+const inactiveColor = Color(0xFF111328);
+//const activeCardcolor = Color(0xFF1D1E33);
+const activeCardcolor=Colors.black54;
+const bottomcontainerheight = 60.0;
 const kMessageContainerDecoration = BoxDecoration(
   border: Border(
     top: BorderSide(color: Colors.white/*(0xFFF8A95F)*/, width: 2.0),
   ),
 );
+const labelTExtStyle = TextStyle(fontSize: 18.0, color: Colors.white);
 
 const ktextfield = InputDecoration(
   enabledBorder: UnderlineInputBorder(

@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:optelgoa/adminlogin.dart';
+import 'package:optelgoa/dashboard.dart';
 import 'package:optelgoa/welcome_screen.dart';
 import 'package:optelgoa/login_screen.dart';
 
@@ -16,11 +17,13 @@ class MyApp extends StatelessWidget {
       ]);
     return MaterialApp(
      debugShowCheckedModeBanner: false,
-    initialRoute: WelcomeScreen.id,
+    initialRoute: Dashboard.id,
     routes: {
 WelcomeScreen.id:(context)=>WelcomeScreen(),
 LoginScreen.id:(context)=>LoginScreen(),
 AdminLogin.id:(context)=>AdminLogin(),
+Dashboard.id:(context)=>Dashboard(),
+
 //ChatScreen.id:(context)=>ChatScreen(),
 //RegistrationScreen.id:(context)=>RegistrationScreen(),
     }
